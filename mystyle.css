@@ -1,0 +1,80 @@
+body{
+	background-color: ;
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#top{
+	position:absolute;
+	background-color:black
+	width:100%;
+}
+
+#top p{
+	color:white;
+}
+
+p.y{
+	color:green;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+ 	font-weight: 300;
+ 	position:relative;
+ 	margin:0;
+ 	right:50%;
+ 	top:50%;
+ 	z-index:5;
+}
+
+#panel, #flip{
+	background-color: black;
+	margin-right:-8px;
+	margin-left:-8px;
+}
+
+#flip{
+	position:relative;
+	top:500px;
+}
+
+#flip img{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left:50px;
+}
+
+#flip p{
+	position:absolute;
+	color:green;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+ 	font-weight: 300;
+ 	font-size:2em;
+	float:right;
+	margin-right:10%;
+	font-weight: normal;
+}
+
+#panel{
+	margin-top:500px;
+	padding:50px;
+	display:none;
+	background:url("linen.jpg");
+}
+
+#panel video{
+	position:relative;
+	left: 5%;
+	top:15%;
+}
+
+#flip, #top {
+    opacity: .85;
+    filter: alpha(opacity=85); /* For IE8 and earlier */
+}
+
+#flip:hover {
+    opacity: 0.95;
+    filter: alpha(opacity=95); /* For IE8 and earlier */
+}
