@@ -3,7 +3,7 @@ This is a project we are working on for school. Instead of using a PowerPoint, w
 Contact:
 
 AlexAichinger
-put@email.here
+alexaichinger@yahoo.com
 
 crlang44
 crlang44@gmail.com
